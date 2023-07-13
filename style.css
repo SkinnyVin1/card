@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+
+}
+@font-face {
+    font-family: Akira;
+    src: url(./Akira\ Expanded\ Demo.otf);
+}
+@font-face {
+    font-family: Gilmer;
+    src: url(./Gilmer\ Medium.otf);
+}
+@font-face {
+    font-family: GilmerLight;
+    src: url(./Gilmer\ Light.otf);
+}
+@font-face {
+    font-family: GilmerReg;
+    src: url(./Gilmer\ Regular.otf);
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #28282b;
+}
+.card-body{
+    width: 80vw;
+    height: 80vh;
+    background-color: #28282b;
+    border-radius: 40px;
+    box-shadow: 10px 10px 20px rgb(25, 25, 25),
+             -10px -10px 20px rgb(35, 33, 33);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left, .right{
+    width: 40vw;
+    height: 80vh;
+    
+
+    display: grid;
+    place-items: center;
+}
+
+.left{
+    border-right: #646464 1px solid;
+    padding: 0px 20px;
+    /* overflow: hidden; */
+    
+}
+.right{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 40px 0;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: #303033;
+    width: 30vw;
+    height: 10.5vh;
+    border-radius: 50px;
+    box-shadow: 0px 4px 16px rgba(17,17,26,0.1), 0px 8px 24px rgba(17,17,26,0.1), 0px 16px 56px rgba(17,17,26,0.1);
+    border: none;
+
+    padding: 0 35px;
+    font-family: GilmerLight;
+    font-size: .8rem;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button img{
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+
+    max-width: 50px;
+    width: 100%;
+}
