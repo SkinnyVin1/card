@@ -38,6 +38,7 @@ body{
              -10px -10px 20px rgb(35, 33, 33);
 
     display: flex;
+    /* flex-direction: row; */
     justify-content: center;
     align-items: center;
 }
@@ -171,4 +172,43 @@ button img{
 .name h2{
     font-family: GilmerLight;
     font-size: 1.6rem;
+}
+
+@media (max-width: 911px) {
+    .card-body{
+        display: flex;
+        flex-direction: column;
+    }
+    .name{
+        text-align: center;
+    }
+    .left{
+        width: 100%;
+        padding: 0;
+        /* flex-direction: row; */
+        justify-content: center;
+        align-items: center;
+        border: none;
+        gap: 50px;
+    }
+    .dp{
+     width: 200px;
+     height: 200px;
+    }
+    .name h1{
+        font-size: 3rem;
+    }
+    .name h2{
+        font-size: 1.5rem;
+    }
+
+    .right{
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0;
+
+        padding-bottom: 20px;
+    }
+    
 }
