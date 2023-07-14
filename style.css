@@ -212,3 +212,21 @@ button img{
     }
     
 }
+@media (max-width: 415px){
+    .left{
+        gap: 20px;
+    }
+    .dp{
+        width: 150px;
+        height: 150px;
+       }
+       .name h1{
+           font-size: 2rem;
+       }
+       .name h2{
+           font-size: 1rem;
+       }
+       a button h1{
+        display: none;
+       }
+}
