@@ -52,8 +52,12 @@ body{
 
 .left{
     border-right: #646464 1px solid;
-    padding: 0px 20px;
-    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    padding-left: 100px;
     
 }
 .right{
@@ -91,4 +95,29 @@ button img{
 
     max-width: 50px;
     width: 100%;
+}
+
+.dp{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 4px 16px rgba(17,17,26,0.1), 0px 8px 24px rgba(17,17,26,0.1), 0px 16px 56px rgba(17,17,26,0.1);
+
+    overflow: hidden;
+    border-radius: 50%;
+
+    display: grid;
+    place-items: center;
+}
+.dp img{
+    width: 120%;
+    /* display: none; */
+}
+
+.name h1{
+    font-family: akira;
+    font-size: 4rem;
+}
+.name h2{
+    font-family: GilmerLight;
+    font-size: 1.6rem;
 }
