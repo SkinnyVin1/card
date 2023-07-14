@@ -214,7 +214,7 @@ button img{
 }
 @media (max-width: 500px){
     .left{
-        gap: 20px;
+        gap: 30px;
     }
     .dp{
         width: 150px;
